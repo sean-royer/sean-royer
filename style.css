@@ -1,0 +1,341 @@
+
+
+body {
+  background-image: url(images/marbre.jpg);
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+
+h1 {
+  color: #fcf1f1;
+  font-size: 75px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.img-circle {
+border-radius: 50%;
+margin-top: 5%;
+margin-left: 39.6%;
+border: solid;
+border-color: white;
+}
+
+
+button {
+  margin-top: 0%;
+  margin-left: 41%;
+  margin-bottom: 5%;
+  padding: 20px 40px;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 10px;
+  border-radius: 30px;
+  border-color: black;
+}
+
+button:hover {
+  background-color: #747474;
+  transition: 0s;
+}
+
+div {
+  background-color: #ffd5cd;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.5);
+  border-radius:10px;
+  padding: 10px;
+  border: solid;
+  border-color: white;
+}
+
+div:hover {
+  transform: translateY(-10px);
+  transition: 1s;
+}
+
+h2 {
+    text-align: center;
+    font-family: arial;
+    color: #ffd5cd;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: arial;
+    color: #ffd5cd;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: arial;
+    color: #ffd5cd;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h5 {
+     text-align: center;
+     font-family: arial;
+     color: #ffd5cd;
+     font-size: 20px;
+     font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+
+h3 {
+  text-align: center;
+}
+
+input {
+  margin-left: 42%;
+}
+
+.card0 {
+  background-image: url(images/image.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card1 {
+  background-image: url(images/background.jpeg);
+  background-position: center;
+  background-size: cover;
+  opacity: 40%;
+}
+
+.card1:hover {
+  opacity: 100%
+}
+
+.card2 {
+    background-image: url(images/essec-batiment.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 40%;
+}
+
+.card2:hover {
+  opacity: 100%;
+}
+
+.card3 {
+    background-image: url(images/ambition.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 40%;
+}
+.card3:hover {
+    opacity: 100%
+}
+
+.card4 {
+    background-color: #1a1c20;
+    opacity: 40%;
+}
+
+.card4:hover {
+    opacity: 100%
+}
+
+.card5 {
+    background-color: #1a1c20;
+    padding : 30px;
+    text-decoration: underline;
+    text-decoration-color: #ffd5cd;
+    opacity: 40%;
+}
+
+.card5:hover {
+    opacity: 100%
+}
+
+.left {
+  float: left;
+  margin-left: 100px;
+  margin-top: 5px;
+  filter: grayscale(100%);
+}
+
+.left:hover {
+  filter: grayscale(0%);
+}
+
+.middle {
+  float: center;
+  margin-left: 240px;
+  filter: grayscale(100%);
+}
+
+.middle:hover {
+  filter: grayscale(0%);
+}
+
+.right {
+  float: right;
+  margin-right: 120px;
+  margin-top: -80px;
+  filter: grayscale(100%);
+}
+
+.right:hover {
+  filter: grayscale(0%);
+}
+
+
+img {
+  margin-left: 430px;
+}
+
+.container {
+  position: absolute;
+  width: 1400px;
+  border: none;
+  background-color: transparent;
+  margin: 40px auto;
+}
+
+
+
+
+
+@media (max-width: 960px) {
+   .container {
+    width: 800px;
+    position: absolute;
+    margin: auto;
+  }
+  .img-circle {
+    margin-left: 90px;
+  }
+  button {
+    margin-left: 110px;
+  }
+  img {
+    margin-left: 140px;
+  }
+  input {
+    margin-left: 100px;
+  }
+  .left {
+      margin-left: -20px;
+    }
+  .middle {
+      margin-left:60px;
+    }
+  .right {
+      margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .container {
+    width: 800px;
+    position: absolute;
+    margin: auto;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    .img-circle {
+    margin-left: 80px;
+    }
+    button {
+      margin-left: 100px;
+    }
+    img {
+      margin-left: 130px;
+    }
+    input {
+      margin-left: 100px;
+    }
+    .card1,.card2,.card3,.card4,.card5 {
+      opacity: 100%;
+    }
+    .left {
+      margin-left: -20px;
+    }
+    .middle {
+      margin-left:60px;
+    }
+    .right {
+      margin-right: 20px;
+    }
+
+
+@media (max-width: 540px) {
+    .container {
+    width: 700px;
+    position: absolute;
+    margin: auto;
+    }
+    .img-circle {
+      margin-left: 5% auto;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    img {
+      margin-left: 30%;
+      }
+      button {
+        margin-left: 50px;
+      }
+    .img-circle {
+      margin-left: 40PX;
+    }
+    .card1,.card2,.card3,.card4,.card5 {
+      opacity: 100%;
+    }
+    .left {
+      width: 30px;
+      height: 30px;
+      margin-left: 1%;
+      margin-top: 2%;
+    }
+    .middle {
+      width: 40px;
+      height: 40px;
+      margin-left: 20%;
+    }
+    .right {
+      width: 30px;
+      height: 30px;
+      margin-right: 18%;
+      padding-top: 42px;
+    }
+    input{
+      margin-left: 40px;
+    }
+}
+
+
